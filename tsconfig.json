@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"diagnostics": true,
+		"target": "es5",
+		"module": "commonjs",
+		"sourceMap": true,
+		"declaration": false,
+		"noImplicitAny": true,
+		"noLib": false
+	},
+	"filesGlob":[
+		"./**/*.ts",
+		"!./node_modules/**/*",
+		"!./typings/**/*"
+	]
+}
